@@ -1,8 +1,10 @@
 body{
-    background-color: #99c24D;
     text-align: center;
     font-family: 'Montserrat';
+    background-color: #99c24d;
     font-weight: 900;
+    margin: 0;
+    padding: 0;
 }
 
 .letter{
@@ -13,7 +15,28 @@ body{
     height: 100vh;
     width: 100vw;
     font-size: 15rem;
+    margin: 0;
+    padding: 0;
 }
 .dark{
     color: #1b1a1a;
+}
+
+.start-button{
+    position: absolute;
+    bottom: 10%;
+    border: 0;
+    color: white;
+    background-color: #f18f01;
+    width: 40%;
+    left: 30%;
+    right: 30%;
+    height: 50px;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.display-no{
+    display: none;
 }
