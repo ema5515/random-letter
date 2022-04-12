@@ -40,3 +40,9 @@ body{
 .display-no{
     display: none;
 }
+
+.made-by{
+    position: absolute;
+    right: 20px;
+    bottom: 3px
+}
